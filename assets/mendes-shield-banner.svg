@@ -1,0 +1,13 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Mendes Shield</title><desc id="desc">Minimal dark banner with shield symbol and project tagline</desc>
+<rect width="1200" height="340" rx="20" fill="#0B1120"/>
+<path d="M0 270L500 0M420 340L920 0M900 340L1200 115" stroke="#1E293B" stroke-width="1.5"/>
+<circle cx="980" cy="170" r="115" stroke="#1E293B" stroke-width="1.6"/>
+<circle cx="980" cy="170" r="85" stroke="#1E293B" stroke-width="1.6"/>
+<path d="M980 85L1054 113V177C1054 223 1022 255 980 275C938 255 906 223 906 177V113L980 85Z" stroke="#06B6D4" stroke-width="6" stroke-linejoin="round"/>
+<path d="M943 177L968 202L1017 151" stroke="#06B6D4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="72" y="83" width="72" height="5" rx="2.5" fill="#2563EB"/>
+<text x="72" y="154" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Mendes Shield</text>
+<text x="75" y="203" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="21">Adaptive security. Explainable intelligence. Open by design.</text>
+<text x="75" y="268" fill="#06B6D4" font-family="Inter, Arial, sans-serif" font-size="19" letter-spacing="1">OBSERVE  /  EXPLAIN  /  REVIEW</text>
+</svg>
