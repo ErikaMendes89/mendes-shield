@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.25,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mendes-shield"
+version = "0.0.1"
+description = "Foundational API for an experimental adaptive web security engine"
+readme = "README.md"
+requires-python = ">=3.12"
+# A license will be declared only after maintainer approval.
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1", "ruff>=0.8,<1", "mypy>=1.13,<2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mendes_shield"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src"]

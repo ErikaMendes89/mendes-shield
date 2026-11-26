@@ -1,0 +1,16 @@
+.git
+.github
+docus
+.agents
+.env
+.env.*
+!.env.example
+.venv
+__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.pyc
+models/artifacts
+datasets/raw
+datasets/private
